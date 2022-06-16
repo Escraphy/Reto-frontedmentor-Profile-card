@@ -8,10 +8,6 @@ h1 {
   color: var(--very-dark-desaturated-blue);
 }
 
-span {
-  color: var(--dark-grayish-blue);
-}
-
 h2 {
   color: var(--dark-grayish-blue);
 }
@@ -19,8 +15,7 @@ h2 {
 h3 {
   color: var(--very-dark-desaturated-blue);
 }
-
-h4 {
+span {
   color: var(--dark-grayish-blue);
 }
 
@@ -42,4 +37,10 @@ h4 {
 
 .social {
   display: flex;
+  justify-content: space-evenly;
+  border: 1px solid red;
+}
+
+.social h3 small {
+  display: block;
 }
