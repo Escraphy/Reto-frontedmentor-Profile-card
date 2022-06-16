@@ -39,3 +39,7 @@ h4 {
 .image {
   border-radius: 50px;
 }
+
+.social {
+  display: flex;
+}
