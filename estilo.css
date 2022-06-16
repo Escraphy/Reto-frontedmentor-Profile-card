@@ -1,3 +1,29 @@
+:root {
+  --dark-cyan: hsl(185, 75%, 39%);
+  --very-dark-desaturated-blue: hsl(229, 23%, 23%);
+  --dark-grayish-blue: hsl(227, 10%, 46%);
+}
+
 h1 {
-  color: blue;
+  color: var(--very-dark-desaturated-blue);
+}
+
+span {
+  color: var(--dark-grayish-blue);
+}
+
+h2 {
+  color: var(--dark-grayish-blue);
+}
+
+h3 {
+  color: var(--very-dark-desaturated-blue);
+}
+
+h4 {
+  color: var(--dark-grayish-blue);
+}
+
+.cuerpo {
+  background: var(--dark-cyan);
 }
