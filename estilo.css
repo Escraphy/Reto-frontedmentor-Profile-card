@@ -26,4 +26,11 @@ h4 {
 
 .cuerpo {
   background: var(--dark-cyan);
+  padding: 50px;
+}
+
+.card {
+  background: white;
+  border-radius: 20px;
+  overflow: hidden;
 }
