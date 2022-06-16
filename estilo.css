@@ -33,4 +33,9 @@ h4 {
   background: white;
   border-radius: 20px;
   overflow: hidden;
+  text-align: center;
+}
+
+.image {
+  border-radius: 50px;
 }
