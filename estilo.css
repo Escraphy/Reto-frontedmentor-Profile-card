@@ -22,6 +22,7 @@ span {
 .cuerpo {
   background: var(--dark-cyan);
   padding: 50px;
+  font-family: "Kumbh Sans", sans-serif;
 }
 
 .card {
@@ -43,4 +44,6 @@ span {
 
 .social h3 small {
   display: block;
+  color: var(--dark-grayish-blue);
+  font-weight: 400;
 }
