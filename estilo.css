@@ -15,6 +15,7 @@ h2 {
 h3 {
   color: var(--very-dark-desaturated-blue);
 }
+
 span {
   color: var(--dark-grayish-blue);
 }
@@ -26,24 +27,35 @@ span {
 }
 
 .card {
-  background: white;
+  background: white url(./images/bg-pattern-card.svg);
+  background-repeat: repeat-x;
   border-radius: 20px;
   overflow: hidden;
   text-align: center;
+  padding-top: 10%;
 }
 
 .image {
-  border-radius: 50px;
+  border-radius: 50%;
+  border: 5px solid white;
 }
 
 .social {
   display: flex;
   justify-content: space-evenly;
-  border: 1px solid red;
+  border-top: 1px solid var(--very-dark-desaturated-blue);
+  padding: 3% 0%;
+}
+
+.social h3 {
+  font-size: 25px;
 }
 
 .social h3 small {
   display: block;
   color: var(--dark-grayish-blue);
   font-weight: 400;
+  margin-top: 10%;
+  letter-spacing: 1px;
+  font-size: 15px;
 }
